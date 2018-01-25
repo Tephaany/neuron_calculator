@@ -1,8 +1,8 @@
-# Calculator
-Calculator neuron for Intelora
+# intelora-calculator
+A Neuron that performs basic calculations for Intelora
 
 ## Synopsis
-Calculate simple operations
+Make Intelora perform simple operations such as addition, subtraction. multiplication, and division
 
 ## Installation
 ```bash
@@ -24,9 +24,12 @@ intelora install --git-url https://github.com/intelora/neuron_calculator.git
 |--------------|----------------------------------------------|--------|--------|
 | solution     | Returns the solution of the given operation  | string | 5      |
 
-## Notes
-- Only one operation is possible.
-- Not all STT engines return integers! 
+## Limitation
+
+-Only one operation is possible.
+-Not all STT engines return integers
+-Operation available: add, subtract, multiply, divide
+
 
 ## Synapses example
 ```
